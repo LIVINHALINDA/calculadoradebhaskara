@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+h1 {
+    color: #ad05a7;
+}
+
+label {
+    display: ruby-base;
+    margin-top: 10px; color: #ad05a7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    width: 95%;
+    padding: 4px;
+    margin-top: 5px;  color: #ad05a7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #ad05a7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#status {
+    font-weight: bold;
+    color: #ce0ec8;
+    font-family: 'Courier New', Courier, monospace;
+}
+

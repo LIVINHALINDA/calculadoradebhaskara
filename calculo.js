@@ -15,8 +15,16 @@ function calcularRaizes() {
 
     // Verifica se as raízes são reais
     if (delta < 0) {
-        document.getElementById('resultado').innerText = 'As raízes são números complexos.';
-        return;
+       document.getElementById('status').innerText = 'NÃO POSSUI RAÍZES REAIS';
+        
+    }
+    if (delta > 0) {
+        document.getElementById('status').innerText = 'POSSUI DUAS RAÍZES REAIS DIFERENTES';
+      
+    }
+    if (delta == 0) {
+        document.getElementById('status').innerText = 'POSSUI DUAS RAÍZES REAIS IGUAIS';
+       
     }
 
     // Calcula as raízes
